@@ -1,0 +1,32 @@
+body {
+        background-color: #C780FA;
+    }
+    hr{
+        
+        border-style: dotted none none; 
+        border-color: blueviolet;
+        border-width: 4px;
+        height: 0px;
+        width: 10%;
+    } /*dotted came first so its of top dimension whereas rest are for height and breath the format of hr can be also changed by giving a command as border-top-style: dotted that is explicitly giving command regarding the format of one side of the hr line*/
+    h1{
+        color: #3b5a96;
+    }
+    h1:hover{
+        color: black;
+    }
+    h3{
+        color:  #3b5a96;
+    }
+    img:hover{
+        background-color: black;
+    }
+    
+    
+    /*
+Syntax of css (video 6 module 4):- selector{property: value; similarly other changing rules and attributes together all ending with a ;} essse yaad rakho who{what : how} syntax
+    */
+    /*for targetting a specific class the syntax is .classname {property: value}*/
+    /*id bhi esa ek selector hai like class and uska syntax hai #idname{property: value} or for this file exmple #myname{color: voiletblue;}*/
+    /*difference between id and class selectors is that id has to have unique name for every specific element whereas many elements can share same class name id serves kinda as primary key whereas class can be a unique key also an element can have/fall under more than one class but can only have one id*/
+/**/
